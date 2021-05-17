@@ -22,15 +22,12 @@
   "version": "1.2.4",
   "license": "LGPL-3.0",
   "frameworks": "arduino",
-  "platforms": ["espressif8266", "espressif32"],
+  "platforms": ["espressif32"],
   "dependencies": [
     {
-      "name": "ESPAsyncTCP",
-      "platforms": "espressif8266"
-    },
-    {
       "name": "AsyncTCP",
-      "platforms": "espressif32"
+      "platforms": "espressif32",
+      "version": "https://github.com/brunojoyal/AsyncTCP.git#dev"
     },
     {
       "name": "Hash",
